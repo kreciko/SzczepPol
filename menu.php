@@ -13,6 +13,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
       <ul class="nav navbar-nav">
         <li><a href="?content=about_us">O firmie <span class="sr-only">(current)</span></a></li>
+        <li><a href="?content=news">Aktualności</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Oferta<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -22,7 +23,7 @@
           </ul>
         </li>
         <li><a href="?content=mpurchase">Skup maszyn</a></li>
-        <li><a href="?content=mpurchase">Galeria</a></li>
+        <li><a href="?content=gallery">Galeria</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Kontakt</a></li>

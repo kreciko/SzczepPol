@@ -1,11 +1,15 @@
 body {
+	background: url("../img/bg.PNG") #2e3133 repeat-x left top;
 }
 
 header {
-	height: 200px;
 	/*background-color: #697075;*/
-	padding-left: 10%;
-	padding-right:10%;
+	margin-left: 10%;
+	margin-right:10%;
+}
+
+#header_lang {
+	text-align:right;
 }
 
 #header_menu {
@@ -13,39 +17,121 @@ header {
 }
 
 #header_graphics {
-	height: 125px;
+	position:relative;
 }
 
-footer {
-	background-color: #15181a;
-	height: 80px;
-	padding: 10px 10% 0px 10%;
-}
-
-#lang {
-	text-align:right;
-}
 
 #container {
 	position: relative;
 }
 
 #body {
-	margin-left: 10%;
-	margin-right:10%;
-}
-
-#content {
-	min-height: 1500px;
-	max-height: 2000px;
+	margin: 0 10% 0 10%;
+	min-height: 1000px;
+	/*border-left: solid 1px #697075;
+	border-right: solid 1px #697075;
+	border-top: solid 1px #697075;*/
 }
 
 .content_block {
-	inline-block;
 	border-radius: 5px;
 	border: solid 1px #697075;
-	margin: 10px;
-	padding: 10px;
+	margin: 1em;
+	padding: 1em;
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: 10px 10px 5px grey;
 }
 
+/*.contentA {
+	width: 45%;
+	min-height: 200px;
+	display: inline-block;
+	vertical-align: top;
+}*/
 
+.contentA {
+	width: 45%;
+	min-height: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contentB {
+	width: 70%;
+	min-height: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contentC {
+	width: 20%;
+	min-height: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer {
+	background-color: #697075;
+	height: 80px;
+	padding: 10px 10% 0px 10%;
+}
+
+#footer_content {
+	display: table;
+	width: 100%;
+}
+
+#footer_social {
+	display: table-cell;
+	width: 100%;
+	text-align: right;
+}
+
+ul {
+	/*list-style-type:square;*/
+	/*-webkit-padding-start: 0px;*/
+}
+
+h1.title {
+	/*background-color: #0e3862;*/
+	margin: 0;
+	padding-top: 0.7em;
+	padding-bottom: 0.4em;
+}
+
+h2.column {
+	color: #4287cc;
+}
+
+div.announce {
+	border: 1px solid rgba(0,0,0,0.6);
+	background-color: #1c1e22;
+	margin: 0 10% 0 10%;
+	text-align:justify;
+	padding: 2em;
+}
+
+div.content {
+	padding: 1em;
+	border-bottom: solid 1px #697075;
+}
+
+div.columns {
+	width: 100%;
+	min-height: 500px;
+	display: table;
+}
+
+div.column_left {
+	display: table-cell;
+	width: 50%;
+	border-right: double 3px #697075;
+	padding-right: 2em;
+}
+
+div.column_right {
+	display: table-cell;
+	width: 50%;
+	padding-left: 2em;
+}
