@@ -1,11 +1,11 @@
 body {
-	background: url("../img/bg.PNG") #2e3133 repeat-x left top;
+	background: url("../img/bg_body.jpg") #2e3133 left top;
 }
 
 header {
-	/*background-color: #697075;*/
-	margin-left: 10%;
-	margin-right:10%;
+	background: #2e3133;
+	padding-left: 10%;
+	padding-right:10%;
 }
 
 #header_lang {
@@ -14,10 +14,13 @@ header {
 
 #header_menu {
 	position:relative;
+	min-height:50px;
+	background: #3e7bba;
 }
 
 #header_graphics {
 	position:relative;
+	min-height: 300px;
 }
 
 
@@ -26,11 +29,11 @@ header {
 }
 
 #body {
+	background-image: url("../img/side-shadow-l.png"),url("../img/side-shadow-r.png");
+	background-position: left top, right top;
+	background-repeat: no-repeat;
 	margin: 0 10% 0 10%;
 	min-height: 1000px;
-	/*border-left: solid 1px #697075;
-	border-right: solid 1px #697075;
-	border-top: solid 1px #697075;*/
 }
 
 .content_block {
@@ -72,7 +75,8 @@ header {
 }
 
 footer {
-	background-color: #697075;
+	background: url("../img/bg_body2.jpg") #2e3133 left top;
+	/*background-color: #697075;*/
 	height: 80px;
 	padding: 10px 10% 0px 10%;
 }

@@ -14,32 +14,6 @@
             <li>Netstal</li>
         </ul> 
     </p>
-   <!-- <p>Jak również peryferii takich jak m. in.:
-        <ul>
-            <li>Młynki i młyny do przetwórstwa tworzyw sztucznych</li>
-           <li>Suszarnie</li>
-           <li>Roboty</li>
-           <li>Podajniki surowca</li>
-           <li>Dozowniki barwników</li>
-           <li>Taśmociągi</li>
-           <li>Manipulatory</li>
-           <li>Regulatory temperatury</li>
-           <li>Schładzarki przemysłowe (Chillery)</li>
-           <li>Systemy odzysku wilgoci</li>
-           <li>i inne</li>
-        </ul>
-    </p> 
-    <p>
-    Maszyny narzędziowe:
-        <ul>
-            <li>Szlifierki</li>
-            <li>Frezarki</li>
-            <li>Tokarki</li>
-            <li>Drążarki</li>
-            <li>Drutówki</li>
-            <li>Centra obróbcze</li>
-        </ul>
-    </p> -->
     <p>
     Jeżeli nie znajdą Państwo w naszej ofercie maszyny spełniającej Państwa oczekiwania, jesteśmy w stanie w szybkim czasie sprowadzić urządzenie o najbardziej optymalnych parametrach, niezbędnych dla produkcji klienta.
     </p>
@@ -147,10 +121,6 @@
                 <td>arek@szczeppol.pl</td>
               </tr>
           </table>
-            <div class="content_block" style="width: 100%;">
-                    <div class="fb-page" data-href="https://www.facebook.com/TheGamblersBandPL?ref=ts&amp;fref=ts" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/TheGamblersBandPL?ref=ts&amp;fref=ts"><a href="https://www.facebook.com/TheGamblersBandPL?ref=ts&amp;fref=ts">The Gamblers</a></blockquote></div></div>
-            </div>
-            
             <p> Aby znaleźć lokalizację na mapie, kliknij "więcej". </p>
             <div style="text-align:right; position:relative;">
                 <img src="img/h1_box1.png" alt="">

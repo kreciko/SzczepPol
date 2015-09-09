@@ -21,16 +21,6 @@ session_start();
 </head> 
 
 <body>
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.4";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
     <div id="container">
         <header>
             <div id="header_lang">
@@ -39,19 +29,18 @@ session_start();
                     <img src="icons/germany.png" />
             </div>
             <div id="header_graphics">
-                <div style="display: inline-block;"><img src="img/header_pic.jpg" alt=""/></div>
-            </div>
-            <div id="header_menu">
-                <?php include 'menu.php';?>
+                <img src="img/wtrysk/kajtechw.png" alt=""/>
             </div>
         </header>
-      
+        <div id="header_menu">
+               <!-- <?php include 'menu.php';?>-->
+        </div>
         <div id="body">                             
             
                 <?php 
                 if(empty($_GET['content'])){
                     // echo "Empty content. Home.php\n";
-                    include 'home.php';
+                    //include 'home.php';
                 }
                 else {
                     // echo "Content is " . $_GET['content'];
@@ -65,7 +54,7 @@ session_start();
         
         <footer>
             <div id="footer_content">
-                <div style="display: table-cell; width:50%;">
+                <div style="display: table-cell; width:50%; color: black;">
                     &copy; Copyright by Szczep-Pol 2015
                 </div>
                 <div id="footer_social">
